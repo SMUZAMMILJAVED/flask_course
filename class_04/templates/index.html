@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Add Student</title>
+
+<link rel="stylesheet" href="../static/styles.css">
+
+</head>
+
+<body>
+
+<div class="container">
+
+<h2>Add Student</h2>
+
+<form action="/" method="post">
+
+<label>Student Name</label>
+<input type="text" name="std_name" placeholder="Enter student name" required>
+
+<label>Father's Name</label>
+<input type="text" name="f_name" placeholder="Enter father's name" required>
+
+<label>Course</label>
+
+<select name="course">
+<option value="">Select Course</option>
+<option value="fullstack">Full Stack</option>
+<option value="frontend">Frontend</option>
+<option value="backend">Backend</option>
+<option value="agentic_ai">Agentic AI</option>
+</select>
+
+<button type="submit">Add Student</button>
+
+</form>
+
+<br>
+
+<!-- Anchor Button -->
+<a href="/students" class="view-btn">Students Record</a>
+
+</div>
+
+</body>
+</html>
