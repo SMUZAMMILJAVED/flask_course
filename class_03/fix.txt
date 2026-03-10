@@ -1,0 +1,3 @@
+if face error to install pymongo =>  python -m pip install --upgrade pip
+ => pip install pymongo python-dotenv
+
